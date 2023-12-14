@@ -1,0 +1,33 @@
+.post-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  width: 100%;
+}
+
+.post-card__content {
+  display: flex;
+  gap: 40px;
+  min-width: 0;
+}
+
+.post-card__id {
+  flex-shrink: 0;
+  width: 50px;
+  text-align: center;
+}
+
+.post-card__title {
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.post-card__additional {
+  flex-shrink: 0;
+}
+
+.post-card__title, .post-card__body {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

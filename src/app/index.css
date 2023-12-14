@@ -1,0 +1,4 @@
+@import "styles/index.css";
+
+@import '../entities/post/ui/styles/index.css';
+@import '../pages/post/styles/index.css';

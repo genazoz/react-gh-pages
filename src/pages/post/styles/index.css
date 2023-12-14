@@ -1,0 +1,7 @@
+.post-page__post {
+  flex-direction: column;
+}
+
+.post-page__post .post-card__content {
+  flex-direction: column;
+}
