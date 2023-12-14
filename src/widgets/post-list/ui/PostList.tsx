@@ -22,7 +22,7 @@ export const PostList = () => {
     <PostCard
       data={posts[index]}
       additional={<>
-        <Link to={`/post/${posts[index].id}`}>
+        <Link to={`/react-gh-pages/post/${posts[index].id}`}>
           Go to post
         </Link>
       </>}
