@@ -5,8 +5,8 @@ import {PostPage} from "./post";
 export const Root = () => {
   return (
     <Routes>
-      <Route path="/" element={<PostsPage />} />
-      <Route path="/post/:postId" element={<PostPage />} />
+      <Route path="/react-gh-pages/" element={<PostsPage />} />
+      <Route path="/react-gh-pages/post/:postId" element={<PostPage />} />
     </Routes>
   );
 };
