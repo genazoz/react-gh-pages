@@ -18,7 +18,9 @@ export const postApi = createApi({
             },
             // Always merge incoming data to the cache entry
             merge: (currentCache, newItems) => {
-                currentCache.push(...newItems)
+                if(!currentCache.map(item => item.id).includes(newItems[0].id)) {
+                    currentCache.push(...newItems)
+                }
             },
             // Refetch when the page arg changes
             forceRefetch({ currentArg, previousArg }) {
